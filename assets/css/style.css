@@ -178,15 +178,39 @@ footer {
 	}
 	article img, .portfolio-link {
 		width: 100%;
+		height: 100%;
+	}
+	.portfolio-link-label {
+		width: 93%;
 	}
 }
 
 @media only screen and (min-width: 641px) and (max-width: 768px) {
+	content {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
 	article, aside {
 		width: 100%;
 	}
-	#profile-pic {
+	#profile-pic, {
 		width: 50%;
+	}
+	.portfolio-link {
+		padding: 10px 0px 20px 0px;
+	}
+	.portfolio-link:nth-child(odd) {
+		float: left;
+	}
+	.portfolio-link:nth-child(even) {
+		float: right;
+	}
+	.portfolio-link img, {
+		width: 90%;
+		height: 90%;
+	}
+	.portfolio-link-label {
+		width: 100%;
 	}
 }
 
@@ -194,9 +218,23 @@ footer {
 	header {
 		position: static;
 	}
-
+	content {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
 	article, aside {
 		width: 100%;
+	}
+	.portfolio-link {
+		padding: 10px 0px 20px 0px;
+	}
+	article img, .portfolio-link {
+		width: 100%;
+		height: 100%;
+	}
+	.portfolio-link-label {
+		width: 100%;
+		height: 20%;
 	}
 	.name {
 		width: 100%;
